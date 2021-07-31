@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+<head><title>Simple</title>
+<style>
+button{
+border:none;
+transform:scale(1.5);
+background:rgb(55,155,255);
+color:#fff; font-weight:bold;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<button onclick="vibrate()">Click Me</button>
+<script>
+function vibrate(){
+  navigator.vibrater(20000);
+}
+</script>
+</body>
+</html>
